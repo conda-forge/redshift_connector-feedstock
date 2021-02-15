@@ -1,5 +1,5 @@
 {% set name = "redshift_connector" %}
-{% set version = "2.0.873" %}
+{% set version = "2.0.874" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/aws/amazon-redshift-python-driver/archive/v{{ version }}.tar.gz
-  sha256: e8bd7c3f576041dc68d1269ead4b5550df47942aac7548ca42a65a93fc400ec6
+  sha256: a8b0c69a21a0ede350d55b991daa16a69b49ba8b4182e7a217a557f15a348b72
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Pure Python connector for Amazon Redshift'
+  summary: Pure Python connector for Amazon Redshift
   description: |
     redshift_connector is the Amazon Redshift connector for Python. Easy integration with 
     pandas and numpy, as well as support for numerous Amazon Redshift specific features 
