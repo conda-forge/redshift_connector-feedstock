@@ -1,5 +1,5 @@
 {% set name = "redshift_connector" %}
-{% set version = "2.0.876" %}
+{% set version = "2.0.877" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aws/amazon-redshift-python-driver/archive/v{{ version }}.tar.gz
-  sha256: e8e5619a8d86123435aff1004e40870d11fda9d5158610c52147c091c9251157
+  sha256: 4b0da7432ebcf60a396ad4feac1310a205458ee9a37cd584243e04487f04ff83
 
 build:
   noarch: python
