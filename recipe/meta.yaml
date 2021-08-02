@@ -1,5 +1,5 @@
 {% set name = "redshift_connector" %}
-{% set version = "2.0.883" %}
+{% set version = "2.0.884" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aws/amazon-redshift-python-driver/archive/v{{ version }}.tar.gz
-  sha256: 486bcf00a0163d5cb25449cb441c8b5006e162250c4659f21591ed0e7790e021
+  sha256: 832b2d766319559f43740805c0eb9b6b65fe2b68cec29430cca829e47f6e8b37
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - requests >=2.23.0,<2.25.2
     - lxml >=4.6.2
     - botocore >=1.19.8,<2.0.0
+    - packaging
 
 test:
   imports:
