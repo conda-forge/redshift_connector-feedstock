@@ -28,6 +28,7 @@ requirements:
     - lxml >=4.6.5
     - botocore >=1.12.201,<2.0.0
     - packaging
+    - setuptools
 
 test:
   imports:
