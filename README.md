@@ -1,11 +1,11 @@
-About redshift_connector
-========================
+About redshift_connector-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redshift_connector-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aws/amazon-redshift-python-driver/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redshift_connector-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure Python connector for Amazon Redshift
 
