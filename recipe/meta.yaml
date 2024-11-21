@@ -17,6 +17,8 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools
+    - wheel
   run:
     - python >=3.6
     - scramp >=1.2.0,<1.5.0
