@@ -36,7 +36,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-redshift_connector-green.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-redshift__connector-green.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/redshift_connector.svg)](https://anaconda.org/conda-forge/redshift_connector) |
 
 Installing redshift_connector
 =============================
@@ -153,4 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@Brooke-white](https://github.com/Brooke-white/)
+* [@bsharifi](https://github.com/bsharifi/)
+* [@personal-naveenkumar](https://github.com/personal-naveenkumar/)
+* [@vahid110](https://github.com/vahid110/)
 
