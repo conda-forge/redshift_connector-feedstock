@@ -155,5 +155,6 @@ Feedstock Maintainers
 * [@Brooke-white](https://github.com/Brooke-white/)
 * [@bsharifi](https://github.com/bsharifi/)
 * [@personal-naveenkumar](https://github.com/personal-naveenkumar/)
+* [@rxm7706](https://github.com/rxm7706/)
 * [@vahid110](https://github.com/vahid110/)
 
