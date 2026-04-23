@@ -153,4 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@Brooke-white](https://github.com/Brooke-white/)
+* [@bsharifi](https://github.com/bsharifi/)
+* [@personal-naveenkumar](https://github.com/personal-naveenkumar/)
+* [@vahid110](https://github.com/vahid110/)
 
