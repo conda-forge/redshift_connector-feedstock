@@ -1,32 +1,34 @@
 {% set name = "redshift_connector" %}
-{% set version = "2.1.5" %}
+{% set version = "2.1.10" %}
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/aws/amazon-redshift-python-driver/archive/v{{ version }}.tar.gz
-  sha256: ab4a03b2c1e5d4a5551a0c849794915280547dfc676a4cf9065804aa59a0c76a
+  sha256: 9317e6a2c70cc68e59bf1f76d56013cc3ee1650693c61e9d6c23a41f29e0f498
 
 build:
   noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
-  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
+    - wheel
+    - pytest
     - pip
     - setuptools
-    - wheel
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - scramp >=1.2.0,<1.5.0
     - pytz >=2020.1
     - beautifulsoup4 >=4.7.0,<5.0.0
     - boto3 >=1.9.201,<2.0.0
     - requests >=2.23.0,<3.0.0
-    - lxml >=4.6.5
+    - lxml >=4.6.5,<6.0.0
     - botocore >=1.12.201,<2.0.0
     - packaging
     - setuptools
@@ -34,6 +36,11 @@ requirements:
 test:
   imports:
     - redshift_connector
+  commands:
+    - pip check
+  requires:
+    - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/aws/amazon-redshift-python-driver/
@@ -50,7 +57,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - personal-naveenkumar
-    - vahid110
-    - bsharifi
     - Brooke-white
+    - bsharifi
+    - personal-naveenkumar
+    - rxm7706
+    - vahid110
