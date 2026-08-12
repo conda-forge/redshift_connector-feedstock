@@ -17,7 +17,6 @@ redshift_connector is the Amazon Redshift connector for Python. Easy integration
 pandas and numpy, as well as support for numerous Amazon Redshift specific features
 help you get you the most out of your data.
 
-
 Current build status
 ====================
 
@@ -25,9 +24,7 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <a href="https://github.com/conda-forge/redshift_connector-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/redshift_connector-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
