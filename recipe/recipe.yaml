@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: redshift_connector
-  version: "2.1.15"
+  version: "2.1.17"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/aws/amazon-redshift-python-driver/archive/v${{ version }}.tar.gz
-  sha256: 45bf54ad345a49c736d2d2e3c7ee8e68bc409b3c22ea6f474b300d31977e9539
+  sha256: 7d0b639c3f7e38ce16660288dc4fa0da1d1d7dc2b2adb6753af1eabd7d32736b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
